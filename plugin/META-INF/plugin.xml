@@ -1,0 +1,27 @@
+<idea-plugin version="2">
+  <id>io.ruudboon.phpstorm-phalcon-4-autocomplete</id>
+  <name>Phalcon 4 Autocomplete</name>
+  <version>4.0.0-beta.1</version>
+  <vendor email="ruud@ruudboon.io" url="https://github.com/ruudboon/phpstorm-phalcon-4-autocomplete">Ruud Boon</vendor>
+
+  <description><![CDATA[
+    Provides autocomplete for Phalcon 4
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>4.0.0-beta.1</h3>
+    <ul>
+      <li>Initial support of Phalcon V4</li>
+    </ul>
+  ]]>
+  </change-notes>
+
+  <idea-version since-build="163.3984"/>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.jetbrains.php</depends>
+
+  <extensions defaultExtensionNs="com.jetbrains.php">
+    <libraryRoot id="library" path="/src/Phalcon" runtime="false"/>
+  </extensions>
+</idea-plugin>
