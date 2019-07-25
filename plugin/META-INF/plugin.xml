@@ -5,7 +5,7 @@
   <vendor email="ruud@ruudboon.io" url="https://github.com/ruudboon/phpstorm-phalcon-4-autocomplete">Ruud Boon</vendor>
 
   <description><![CDATA[
-    Provides autocomplete for Phalcon 4
+    Provides autocomplete functionality for Phalcon 4.
   ]]></description>
 
   <change-notes><![CDATA[
