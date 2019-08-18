@@ -137,7 +137,8 @@ class Collection implements \ArrayAccess, \Countable, \IteratorAggregate, \JsonS
 
     /**
      * Offset to set
-     * See [offsetSet](@link )https://php.net/manual/en/arrayaccess.offsetset.php)
+     * See [offsetSet](https://php.net/manual/en/arrayaccess.offsetset.php)
+     *
      * @param mixed $element
      * @param mixed $value
      */
