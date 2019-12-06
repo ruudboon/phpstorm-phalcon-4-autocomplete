@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>io.ruudboon.phpstorm-phalcon-4-autocomplete</id>
   <name>Phalcon 4 Autocomplete</name>
-  <version>4.0.0-rc.2</version>
+  <version>4.0.0-rc.3</version>
   <vendor email="ruud@ruudboon.io" url="https://github.com/ruudboon/phpstorm-phalcon-4-autocomplete">Ruud Boon</vendor>
 
   <description><![CDATA[
@@ -9,9 +9,9 @@
   ]]></description>
 
   <change-notes><![CDATA[
-    <h3>4.0.0-rc.2</h3>
+    <h3>4.0.0-rc.3</h3>
     <ul>
-      <li>Initial support of Phalcon V4</li>
+      <li>IDE Stubs for Phalcon 4.0.0-rc.3</li>
     </ul>
   ]]>
   </change-notes>
