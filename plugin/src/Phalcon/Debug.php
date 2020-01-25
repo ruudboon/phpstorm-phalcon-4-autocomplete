@@ -9,13 +9,6 @@
  */
 namespace Phalcon;
 
-use ErrorException;
-use Phalcon\Helper\Arr;
-use Phalcon\Version;
-use Phalcon\Tag;
-use ReflectionClass;
-use ReflectionFunction;
-
 /**
  * Provides debug capabilities to Phalcon applications
  */
@@ -148,10 +141,10 @@ class Debug
     /**
      * Handles uncaught exceptions
      *
-     * @param \Exception $exception
+     * @param \Throwable $exception
      * @return bool
      */
-    public function onUncaughtException(\Exception $exception): bool
+    public function onUncaughtException(\Throwable $exception): bool
     {
     }
 

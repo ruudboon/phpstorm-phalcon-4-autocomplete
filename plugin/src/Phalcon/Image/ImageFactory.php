@@ -9,9 +9,7 @@
  */
 namespace Phalcon\Image;
 
-use Phalcon\Config;
 use Phalcon\Factory\AbstractFactory;
-use Phalcon\Helper\Arr;
 use Phalcon\Image\Adapter\AdapterInterface;
 
 /**
@@ -30,9 +28,9 @@ class ImageFactory extends AbstractFactory
     }
 
     /**
-     * Factory to create an instace from a Config object
+     * Factory to create an instance from a Config object
      *
-     * @param array|Config $config = [
+     * @param array|\Phalcon\Config $config = [
      *     'adapter' => 'gd',
      *     'file' => 'image.jpg',
      *     'height' => null,

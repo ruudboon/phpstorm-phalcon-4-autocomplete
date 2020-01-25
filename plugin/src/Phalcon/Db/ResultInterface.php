@@ -9,8 +9,6 @@
  */
 namespace Phalcon\Db;
 
-use PDOStatement;
-
 /**
  * Interface for Phalcon\Db\Result objects
  */
@@ -26,9 +24,9 @@ interface ResultInterface
     public function dataSeek(int $number);
 
     /**
-     * Allows to executes the statement again. Some database systems don't
+     * Allows to execute the statement again. Some database systems don't
      * support scrollable cursors. So, as cursors are forward only, we need to
-     * execute the cursor again to fetch rows from the begining
+     * execute the cursor again to fetch rows from the beginning
      *
      * @return bool
      */
@@ -64,9 +62,9 @@ interface ResultInterface
     /**
      * Gets the internal PDO result object
      *
-     * @return PDOStatement
+     * @return \PDOStatement
      */
-    public function getInternalResult(): PDOStatement;
+    public function getInternalResult(): \PDOStatement;
 
     /**
      * Gets number of rows returned by a resultset

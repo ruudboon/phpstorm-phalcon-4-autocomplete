@@ -9,12 +9,10 @@
  */
 namespace Phalcon\Validation\Validator\File\Resolution;
 
-use Phalcon\Messages\Message;
-use Phalcon\Validation;
 use Phalcon\Validation\Validator\File\AbstractFile;
 
 /**
- * Checks if a file has the rigth resolution
+ * Checks if a file has the right resolution
  *
  * ```php
  * use Phalcon\Validation;
@@ -80,11 +78,11 @@ class Min extends AbstractFile
     /**
      * Executes the validation
      *
-     * @param Validation $validation
+     * @param \Phalcon\Validation $validation
      * @param mixed $field
      * @return bool
      */
-    public function validate(Validation $validation, $field): bool
+    public function validate(\Phalcon\Validation $validation, $field): bool
     {
     }
 }

@@ -11,8 +11,6 @@ namespace Phalcon;
 
 use Phalcon\Di\DiInterface;
 use Phalcon\Escaper\EscaperInterface;
-use Phalcon\Tag\Select;
-use Phalcon\Tag\Exception;
 use Phalcon\Url\UrlInterface;
 
 /**
@@ -543,7 +541,7 @@ class Tag
     }
 
     /**
-     * Renders the title with title tags. The title is automaticall escaped
+     * Renders the title with title tags. The title is automatically escaped
      *
      * @param bool $prepend
      * @param bool $append
@@ -652,10 +650,10 @@ class Tag
     /**
      * Sets the dependency injector container.
      *
-     * @param DiInterface $container
+     * @param \Phalcon\Di\DiInterface $container
      * @return void
      */
-    public static function setDI(DiInterface $container)
+    public static function setDI(\Phalcon\Di\DiInterface $container)
     {
     }
 

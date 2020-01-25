@@ -9,8 +9,6 @@
  */
 namespace Phalcon\Filter;
 
-use Phalcon\Filter;
-
 /**
  * This file is part of the Phalcon Framework.
  *
@@ -23,7 +21,7 @@ class FilterFactory
 {
 
     /**
-     * Returns a Locator object with all the helpers defined in anonynous
+     * Returns a Locator object with all the helpers defined in anonymous
      * functions
      *
      * @return FilterInterface

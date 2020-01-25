@@ -9,8 +9,6 @@
  */
 namespace Phalcon\Validation\Validator\File\Size;
 
-use Phalcon\Messages\Message;
-use Phalcon\Validation;
 use Phalcon\Validation\Validator\File\AbstractFile;
 
 /**
@@ -49,7 +47,7 @@ use Phalcon\Validation\Validator\File\AbstractFile;
  *                 "anotherFile" => true,
  *             ],
  *             "message" => [
- *                 "file"        => "file does not have the rigth filesize",
+ *                 "file"        => "file does not have the right filesize",
  *                 "anotherFile" => "anotherFile wrong filesize (4MB)",
  *             ],
  *         ]
@@ -79,11 +77,11 @@ class Equal extends AbstractFile
     /**
      * Executes the validation
      *
-     * @param Validation $validation
+     * @param \Phalcon\Validation $validation
      * @param mixed $field
      * @return bool
      */
-    public function validate(Validation $validation, $field): bool
+    public function validate(\Phalcon\Validation $validation, $field): bool
     {
     }
 }
