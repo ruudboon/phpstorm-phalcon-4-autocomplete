@@ -22,7 +22,7 @@ interface InjectionAwareInterface
      * @param DiInterface $container
      * @return void
      */
-    public function setDI(DiInterface $container);
+    public function setDI(DiInterface $container): void;
 
     /**
      * Returns the internal dependency injector
